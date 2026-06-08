@@ -1,0 +1,6 @@
+vpc_name      = "cmtr-gy0ttqu8-01-vpc"
+subnet_a_name = "cmtr-gy0ttqu8-01-subnet-public-a"
+subnet_b_name = "cmtr-gy0ttqu8-01-subnet-public-b"
+subnet_c_name = "cmtr-gy0ttqu8-01-subnet-public-c"
+igw_name      = "cmtr-gy0ttqu8-01-igw"
+rt_name       = "cmtr-gy0ttqu8-01-rt"
