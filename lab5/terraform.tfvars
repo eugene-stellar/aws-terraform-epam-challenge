@@ -6,9 +6,9 @@ public_subnet_id = "subnet-0e311464a0256517b"
 
 private_subnet_id = "subnet-01ecfa06f3d5ee2b3"
 
-private_ec2_instance_id = "i-01c4eed092070d767"
+private_ec2_instance_id = "i-0a8b4eb164ba05e4c"
 
-public_ec2_instance_id = "i-0a8b4eb164ba05e4c"
+public_ec2_instance_id = "i-01c4eed092070d767"
 
 ssh_security_group_name = "cmtr-gy0ttqu8-ssh-sg"
 
