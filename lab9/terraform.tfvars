@@ -1,0 +1,6 @@
+vpc_name            = "cmtr-gy0ttqu8-vpc"
+public_subnet_name  = "cmtr-gy0ttqu8-public-subnet-1"
+security_group_name = "cmtr-gy0ttqu8-sg"
+project_id          = "cmtr-gy0ttqu8"
+instance_name       = "cmtr-gy0ttqu8-instance"
+aws_region          = "eu-west-1"
