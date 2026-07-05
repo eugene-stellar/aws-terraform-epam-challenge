@@ -10,7 +10,7 @@ Each laboratory is designed as an independent module targeting specific real-wor
 
 ---
 
-## 🛠️ Tech Stack & Best Practices
+## Tech Stack & Best Practices
 
 * **Cloud Provider:** Amazon Web Services (AWS)
 * **IaC Tool:** HashiCorp Terraform (`>= 1.5.7`)
@@ -22,7 +22,7 @@ Each laboratory is designed as an independent module targeting specific real-wor
 
 ---
 
-## 📂 Challenge Tasks
+## Challenge Tasks
 
 * [Lab 01: Creating Network Resources](./lab01-vpc-network) – Constructing an isolated custom Virtual Private Cloud (VPC) with multi-AZ public subnets, an Internet Gateway, and traffic routing.
 * [Lab 02: Resources for SSH Authentication](./lab02-ec2-ssh-auth) – Safely registering custom public keys and deploying public EC2 instances linked with pre-created security groups via Data Sources.
@@ -38,16 +38,16 @@ Each laboratory is designed as an independent module targeting specific real-wor
 
 ---
 
-## ⚙️ Deployment & Execution Instructions
+## Deployment & Execution Instructions
 
 > **Note for reviewers:** The instructions below describe how each independent lab module can be deployed and tested locally.
 
-### 🔑 1. Environment & Variable Configuration
+### 1. Environment & Variable Configuration
 Before attempting to initialize or execute any module, all environment-specific target parameters must be defined inside the `terraform.tfvars` file of that specific laboratory folder:
 * Review and customize input variables such as IP ranges, region configurations, and naming prefixes.
 * **Important:** Multiple lab challenges are dependent on **pre-created cloud environments** provided by the challenge platform (such as existing baseline VPCs, landing zones, or dedicated security group boundaries). To ensure successful deployment, proper platform resource identifiers must be mapped inside your local `terraform.tfvars` file before starting.
 
-### 🚀 2. Terraform Lifecycle Workflow
+### 2. Terraform Lifecycle Workflow
 Navigate into the chosen laboratory directory and trigger the canonical execution sequence:
 
 ```bash
